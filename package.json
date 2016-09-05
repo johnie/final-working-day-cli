@@ -1,6 +1,6 @@
 {
   "name": "final-working-day-cli",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Get final working day of the month in the terminal",
   "license": "MIT",
   "repository": "johnie/final-working-day-cli",
