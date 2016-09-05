@@ -5,7 +5,7 @@
 ## Install
 
 ```
-$ npm install --save final-working-day-cli
+$ npm install --g final-working-day-cli
 ```
 
 ## Usage
