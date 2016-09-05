@@ -1,0 +1,44 @@
+{
+  "name": "final-working-day-cli",
+  "version": "1.0.1",
+  "description": "Get final working day of the month in the terminal",
+  "license": "MIT",
+  "repository": "johnie/final-working-day-cli",
+  "author": {
+    "name": "Johnie Hjelm",
+    "email": "johnie@hjelm.im",
+    "url": "johnie.se"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "bin": {
+    "final-working-day": "cli.js"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "date",
+    "work",
+    "day",
+    "month",
+    "cli"
+  ],
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.4.0",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  },
+  "dependencies": {
+    "final-working-day": "^1.0.3",
+    "meow": "^3.7.0",
+    "moment": "^2.14.1"
+  }
+}
